@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px;
+}
+.aim-tabel {
+    border-collapse: collapse;
+    max-width: 1000px;
+}
+
+.aim-tabel td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.aim-tabel tr td:first-child {
+    text-align: center;
+}
+
+.kernkwadranten{
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    flex-wrap: wrap;
+}
+.kernkwadranten table{
+    margin-bottom: 20px;
+    max-width: 1400px;
+}
+.kernkwadranten-tabel td{
+    padding: 15px;
+    width: 300px;
+    text-align: left;
+}
+
+li{
+    margin: 15px;
+    max-width: 800px;
+}
+
+.x-factor td{
+    min-width: 200px;
+}
+.x-factorfoto{
+    width: 350px;
+}

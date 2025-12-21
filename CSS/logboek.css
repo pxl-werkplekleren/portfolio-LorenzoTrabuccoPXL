@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table.frame-all {
+    border-width: 1px;
+}
+
+.stretch {
+    width: 100%;
+}
+
+table {
+    background: #fff;
+    margin-bottom: 1.25em;
+    border: 1px solid #dedede;
+    word-wrap: normal;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 1000px;
+}
+
+th{
+    border: 1px solid #dedede;
+    padding: 10px;
+    background: lightgrey;
+}
+td{
+    border: 1px solid #dedede;
+    padding: 10px;
+}
+li{
+    margin: 15px;
+    padding: 5px;
+}
