@@ -6,7 +6,34 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 100px;
+    border-left: 100px solid #34343b;
+    border-right: 100px solid #34343b;
+    min-height: 100vh;
+    background-color: #e5f4f3;
+}
+
+header {
+    background-color: #34343b;
+    color: #e5f4f3;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2, h3{
+        margin: 20px 0;
+}
+
+ul{
+    padding: 20px;
+}
+li{
+    padding: 10px;
 }
 
 table {
@@ -14,14 +41,12 @@ table {
     border: 1px solid black;
 }
 
-th {
-    background: lightgrey;
-}
 
 td, th {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
+    background-color: white;
 }
 
 td p {
@@ -31,4 +56,8 @@ td p {
 td li {
     padding: 5px;
     margin-left: 20px;
+}
+
+p {
+    margin: 10px 0;
 }

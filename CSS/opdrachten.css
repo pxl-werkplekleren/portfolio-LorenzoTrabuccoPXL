@@ -4,8 +4,24 @@
     border: 0;
 }
 body{
-    padding: 100px;
     font-family: 'Montserrat', sans-serif;
+    border-left: 100px solid #34343b;
+    border-right: 100px solid #34343b;
+    min-height: 100vh;
+    background-color: #e5f4f3;
+}
+
+header {
+    background-color: #34343b;
+    color: #e5f4f3;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+section{
+    max-width: 1000px;
+    margin: auto;
 }
 table{
     border-collapse: collapse;
@@ -15,4 +31,5 @@ table tr td, table tr th{
     padding: 10px;
     max-width: 300px;
     height: auto;
+    background-color: white;
 }
