@@ -10,6 +10,7 @@ body {
     border-right: 100px solid #34343b;
     min-height: 100vh;
     background-color: #e5f4f3;
+    padding: 20px;
 }
 
 header {
